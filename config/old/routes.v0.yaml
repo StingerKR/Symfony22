@@ -1,0 +1,13 @@
+three:
+    path: /3
+    controller: App\Controller\DefaultController::three
+
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+    
+all:
+    path: /all
+    controller: App\Controller\ProductsController::show
+    defaults: 
+        id: 1
